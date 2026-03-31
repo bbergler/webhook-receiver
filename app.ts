@@ -19,7 +19,7 @@ if (!renderAPIKey ) {
     process.exit(1);
 }
 
-app.get('/', (req: Request, res: Response) => {
+app.get'/', (req: Request, res: Response) => 
   res.send('Render Webhook Receiver is listening!')
 })
 
