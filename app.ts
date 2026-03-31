@@ -20,7 +20,7 @@ if (!renderAPIKey ) {
 }
 
 app.get'/', (req: Request, res: Response) => 
-  res.send('Render Webhook Receiver is listening!')
+  res.send('Render Webhook Receiver is listening')
 })
 
 app.post("/webhook", express.raw({type: 'application/json'}), (req: Request, res: Response, next: NextFunction) => {
